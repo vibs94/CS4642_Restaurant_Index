@@ -1,6 +1,5 @@
 import scrapy
 import unicodedata
-import sys
 
 class RestaurantSpider(scrapy.Spider):
     name = 'restaurant'
@@ -14,12 +13,12 @@ class RestaurantSpider(scrapy.Spider):
         for restaurant in restaurants:
             yield {
                 'name': self.preprocess(restaurant.css('h3.front-h3::text').extract_first()),
-                'address': self.preprocess(response.css('text-muted::text').extract_first()),
-                'disc': self.preprocess(response.css('p.front-p::text').extract_first())
+                'address': self.preprocess(restaurant.css('text-muted::text').extract_first()),
+                'disc': self.preprocess(restaurant.css('p.front-p::text').extract_first())
             }
         p=response.url.split("=")[-1]
         if(p=="44"):
-            sys.exit()
+            exit()
         yield scrapy.Request(url=self.res_url.format(int(p) + 1), callback=self.parse)
 
     def preprocess(self,text):
