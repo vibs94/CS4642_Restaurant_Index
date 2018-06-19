@@ -1,5 +1,6 @@
 import scrapy
 import unicodedata
+import sys
 
 class RestaurantSpider(scrapy.Spider):
     name = 'restaurant'
@@ -14,8 +15,8 @@ class RestaurantSpider(scrapy.Spider):
             href = restaurant.css('::attr(href)').extract_first()
             yield scrapy.Request(url=response.urljoin(href), callback=self.parse_details)
         p=response.url.split("=")[-1]
-        if(p=="44"):
-            exit()
+        # if(p=="44"):
+        #     sys.exit()
         yield scrapy.Request(url=self.res_url.format(int(p) + 1), callback=self.parse)
 
     def parse_details(self, response):
@@ -52,18 +53,37 @@ class RestaurantSpider(scrapy.Spider):
                 for dis in dishes:
                     dish.append(self.preprocess(dis.css('::text').extract_first()))
         rate = response.css('div.place-rating-box-item')
+        rate = self.preprocess(rate[0].css('a::text').extract_first())
+        if("/" not in rate):
+            rate = ""
+        desc = self.preprocess(response.css('p.excerpt::text').extract_first())
+        if(desc==None):
+            desc = ""
+        if (any(c.isalpha() for c in desc))==False:
+            desc = ""
+        addr = self.preprocess(response.css('p.addressLine::text').extract_first())
+        if(addr==None):
+            addr = ""
+        if(contact==None):
+            contact = ""
+        # yield {
+        #     'name': self.preprocess(response.css('h2::text').extract_first()),
+        #     'contact': contact.strip(),
+        #
+        # }
+
         yield {
             'name': self.preprocess(response.css('h2::text').extract_first()),
-            'address': self.preprocess(response.css('p.addressLine::text').extract_first()),
+            'address': addr,
             'directions': dire,
-            'disc': self.preprocess(response.css('p.excerpt::text').extract_first()),
-            'contact': contact,
+            'description': desc,
+            'contact': contact.strip(),
             'open': openh,
             'lables': la,
             'cuisines': cuisine,
             'priceRange': price,
             'dishes': dish,
-            'rating': self.preprocess(rate[0].css('a::text').extract_first())
+            'rating': rate
         }
 
     def preprocess(self,text):
@@ -71,7 +91,7 @@ class RestaurantSpider(scrapy.Spider):
         return unicodedata \
             .normalize('NFKD', text) \
             .encode('ascii', 'ignore') \
-            .replace('\n', '').replace('\t', '').strip()
+            .replace('\n', '').replace('\t', '').replace('\r', '').replace('\"', '').strip()
 
 
 

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc54bde7-8429-4446-8f4f-6abaa37a698a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurent/spiders/rest.json" beforeDir="false" afterPath="$PROJECT_DIR$/restaurent/spiders/rest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurent/spiders/restaurant.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurent/spiders/restaurant.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +18,8 @@
       <file leaf-file-name="restaurant.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restaurent/spiders/restaurant.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+            <state relative-caret-position="132">
+              <caret line="15" column="89" lean-forward="true" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -26,7 +27,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="rest.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/restaurent/spiders/rest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11042">
+              <caret line="279" column="41" lean-forward="true" selection-start-line="279" selection-start-column="41" selection-end-line="279" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,7 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1528861467152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="extracted all details on restaurant">
+      <created>1529348422258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1529348422259</updated>
+    </task>
+    <task id="LOCAL-00004" summary="extracted all details on restaurant">
+      <created>1529348449956</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1529348449956</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -131,15 +160,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1022" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1814346" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32918552" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32918552" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32918552" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.33144796" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32918552" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -157,7 +187,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="get name, address and discription" />
     <MESSAGE value="last commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
+    <MESSAGE value="extracted all details on restaurant" />
+    <option name="LAST_COMMIT_MESSAGE" value="extracted all details on restaurant" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/restaurent/spiders/restaurant.py">
@@ -209,15 +240,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/restaurent/spiders/rest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8372">
-          <caret line="4" selection-start-line="3" selection-end-line="4" />
+        <state relative-caret-position="-11042">
+          <caret line="279" column="41" lean-forward="true" selection-start-line="279" selection-start-column="41" selection-end-line="279" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/restaurent/spiders/restaurant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        <state relative-caret-position="132">
+          <caret line="15" column="89" lean-forward="true" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
