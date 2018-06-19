@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fc54bde7-8429-4446-8f4f-6abaa37a698a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurent/spiders/rest.json" beforeDir="false" afterPath="$PROJECT_DIR$/restaurent/spiders/rest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurent/spiders/rest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurent/spiders/restaurant.py" beforeDir="false" afterPath="$PROJECT_DIR$/restaurent/spiders/restaurant.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="restaurant.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="restaurant.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/restaurent/spiders/restaurant.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="15" column="89" lean-forward="true" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+            <state relative-caret-position="206">
+              <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -27,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rest.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rest.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restaurent/spiders/rest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11042">
-              <caret line="279" column="41" lean-forward="true" selection-start-line="279" selection-start-column="41" selection-end-line="279" selection-end-column="41" />
+            <state relative-caret-position="30">
+              <caret line="2" column="485" lean-forward="true" selection-start-line="2" selection-start-column="485" selection-end-line="2" selection-end-column="504" />
             </state>
           </provider>
         </entry>
@@ -41,6 +41,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&quot;</find>
+      <find>chi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,7 +170,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.33144796" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32918552" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33031675" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -191,6 +192,23 @@
     <option name="LAST_COMMIT_MESSAGE" value="extracted all details on restaurant" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/restaurent/spiders/restaurant.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="89" lean-forward="true" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restaurent/spiders/rest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4185">
+          <caret line="279" column="41" lean-forward="true" selection-start-line="279" selection-start-column="41" selection-end-line="279" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/restaurent/spiders/restaurant.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -231,27 +249,21 @@
     <entry file="file://$PROJECT_DIR$/restaurent/spiders/new.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/restaurent/spiders/rest2.json">
+    <entry file="file://$PROJECT_DIR$/restaurent/spiders/rest2.json" />
+    <entry file="file://$PROJECT_DIR$/restaurent/spiders/restaurant.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="199" selection-start-column="199" selection-end-column="199" />
+        <state relative-caret-position="206">
+          <caret line="81" column="18" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/restaurent/spiders/rest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11042">
-          <caret line="279" column="41" lean-forward="true" selection-start-line="279" selection-start-column="41" selection-end-line="279" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restaurent/spiders/restaurant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="89" lean-forward="true" selection-start-line="15" selection-start-column="89" selection-end-line="15" selection-end-column="89" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="485" lean-forward="true" selection-start-line="2" selection-start-column="485" selection-end-line="2" selection-end-column="504" />
         </state>
       </provider>
     </entry>

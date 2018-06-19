@@ -79,7 +79,7 @@ class RestaurantSpider(scrapy.Spider):
             'description': desc,
             'contact': contact.strip(),
             'open': openh,
-            'lables': la,
+            'labels': la,
             'cuisines': cuisine,
             'priceRange': price,
             'dishes': dish,
